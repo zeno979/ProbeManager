@@ -222,3 +222,4 @@ if os.path.isfile(os.path.join(BASE_DIR, 'core/fixtures/test-core-secrets.ini'))
     DEFAULT_FROM_EMAIL = config_secrets['EMAIL']['DEFAULT_FROM_EMAIL']
     EMAIL_USE_TLS = config_secrets.getboolean('EMAIL', 'EMAIL_USE_TLS')
     EMAIL_HOST_PASSWORD = config_secrets['EMAIL']['EMAIL_HOST_PASSWORD']
+

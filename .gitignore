@@ -21,6 +21,7 @@ lib64/
 parts/
 sdist/
 var/
+venv/
 wheels/
 *.egg-info/
 .installed.cfg
@@ -177,3 +178,5 @@ probemanager/static/
 secrets.tar
 /probemanager/file_test_success/
 /erl_crash.dump
+
+.idea/
